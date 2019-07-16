@@ -1,1 +1,2 @@
 # Express Switchboard Controller
+[![Build Status](https://travis-ci.org/charliemitchell/express-switchboard-controller.svg?branch=master)](https://travis-ci.org/charliemitchell/express-switchboard-controller) 
