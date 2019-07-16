@@ -73,7 +73,7 @@ describe('Controller: cache', function () {
         cache({ user_id: 9 }).then(x => {
           client.keys('*', (err, db) => {
             if (err) reject(err);
-            client.get(db[0], (err, data) => {
+            client.get('UserController#Get-k-/widgets', (err, data) => {
               if (err) reject(err);
               if (data && JSON.parse(data).user_id === 9) {
                 resolve();
