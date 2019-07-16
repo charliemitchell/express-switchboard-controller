@@ -1,2 +1,2 @@
 # Express Switchboard Controller
-[![Build Status](https://travis-ci.org/charliemitchell/express-switchboard-controller.svg?branch=master)](https://travis-ci.org/charliemitchell/express-switchboard-controller) 
+[![Build Status](https://travis-ci.org/charliemitchell/express-switchboard-controller.svg?branch=master)](https://travis-ci.org/charliemitchell/express-switchboard-controller) [![Coverage Status](https://coveralls.io/repos/github/charliemitchell/express-switchboard-controller/badge.svg?branch=master)](https://coveralls.io/github/charliemitchell/express-switchboard-controller?branch=master)
