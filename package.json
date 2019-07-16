@@ -1,0 +1,29 @@
+{
+  "name": "express-switchboard-controller",
+  "version": "1.0.0",
+  "description": "An awesome controller class for express switchboard",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --require test/support/env --reporter spec --bail --check-leaks --exit test/",
+    "cover": "nyc npm run test && npx nyc report --reporter=html",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.14"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "nyc": "14.1.1",
+    "mocha": "5.2.0",
+    "chai": "^4.2.0",
+    "rooty": "^2.0.0",
+    "coveralls": "^3.0.5",
+    "redis": "2.6.3"
+  }
+}
