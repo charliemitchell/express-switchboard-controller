@@ -10,10 +10,5 @@ before_script:
   - redis-server --version
   - redis-server --daemonize yes
 
-addons:
-  apt:
-    packages:
-      - redis-server
-
 after_success:
   - yarn run coveralls
